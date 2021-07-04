@@ -1,0 +1,213 @@
+.container-fluid {
+    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdiyactive.com%2Fwp-content%2Fuploads%2F2013%2F12%2FUK.jpg&f=1&nofb=1);
+    width: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar {
+    position: fixed;
+    /* transition: 1s; */
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 45px; 
+    font-family: Germania;
+    /* cursor: pointer; */
+}
+
+.icon-bar {
+    background-color: #000;
+
+}
+
+.nav {
+    font-family: Lithos Pro;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.nav li {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.nav li:after {
+    content: '';
+    display: block;
+    border-bottom: 4px solid blue;
+    transform: scaleX(0);
+    transition: .2s ease-in-out;
+}
+
+.nav li:hover:after {
+    transform: scaleX(1);
+} 
+
+.para {
+    min-height: 500px;
+}
+.para h3 {
+    text-shadow: 0 0 5px #0000FF, 0 0 5px #0000FF;
+    text-align: center;
+    margin-top: 15%;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+}
+ 
+.text-center .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+   border: white 3px solid;
+    background-color: rgb(30, 30, 255) !important;
+}
+.container .row h4{
+    color: blue;   
+}
+.container .row h3{
+    color:black;  
+    text-align: center; 
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container .row span{
+    color: rgb(5, 5, 182);  
+    text-align: center; 
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#container3 .container {
+    position: relative;
+    width: 100%;
+  }
+  
+#container3 .image {
+    display: block;
+    width: 100%;
+    height: 70%;
+  }
+  
+#container3 .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color:rgb(180, 180, 180);
+    opacity: 50%;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease-in;
+  }
+  
+#container3 .container:hover .overlay {
+    bottom: 10%;
+    height: 80%;
+  }
+  
+#container3 .text {
+    text-transform: uppercase;
+    color: rgb(1, 38, 161);
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+#container3 .col-xs-9  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+#img5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://wallpapercave.com/wp/wp8916449.jpg");
+    object-fit: contain;
+    background-repeat: no-repeat ;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    /* opacity: 85%; */
+    width: 100%;
+    height: 100%;
+        
+} 
+#img5 .text-bg{
+    line-height: 7;
+    text-align: center;
+    position: absolute;
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#container6 .container h4{
+  z-index: -110;
+}
+/* IMAGE TEXT */
+
+#container7 #portfolio h2{
+    color: white ;
+}
+#container7 #portfolio h4{
+    color: white ;
+}
+/* MAPSSSS */
+#cont{
+    background-color: #0024c2d0;
+    letter-spacing: 2px;
+    }
+#cont a{
+    color: #fff;
+    text-decoration: none;
+}
+  
+  
+  @media (max-width: 575.98px) {
+  
+    #cont{padding-bottom: 800px;}
+    #cont .maps iframe{
+      width: 100%;
+      height: 450px;
+    }
+   }
+  
+  
+  @media (min-width: 576px) {
+  
+     #cont{padding-bottom: 800px;}
+  
+     #cont .maps iframe{
+       width: 100%;
+       height: 450px;
+     }
+   }
+  
+  @media (min-width: 768px) {
+  
+    #cont{padding-bottom: 50px;}
+  
+    #cont .maps iframe{
+      width: 100%;
+      height: 850px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #cont{padding-bottom: 50px;}
+  
+     #cont .maps iframe{
+       width: 100%;
+       height: 700px;
+     }
+  }
+  
